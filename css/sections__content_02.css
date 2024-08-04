@@ -1,0 +1,226 @@
+.sections__content_02 {
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  width: 632px;
+  height: 519px;
+}
+.sections__chapter_02 {
+  display: block;
+  width: 380px;
+  height: 27px;
+}
+.sections__chapter-holder_02 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  gap: 24.9px;
+}
+.sections__chapter-img_02 {
+  width: 72px;
+  height: 2px;
+  padding-bottom: 5px;
+}
+.sections__chapter-span_02 {
+  padding-top: 1px;
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.sections__title_02 {
+  margin-top: 28px;
+  width: 541px;
+  height: 180px;
+}
+.sections__title_02 h2 {
+  margin: 0;
+  margin-left: -1px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 64px;
+  color: var(--weib);
+  line-height: 5.94rem;
+  letter-spacing: -0.01em;
+}
+.sections__description_02 {
+  margin-top: 38px;
+  width: 632px;
+  height: 187px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 178%;
+  color: var(--weib);
+}
+.sections__btn-more_02 {
+  margin-top: 36px;
+  width: 128px;
+  height: 27px;
+}
+.sections__link-more_02 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--accent);
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 7px;
+}
+.sections__btn-more-img_02 {
+  padding-bottom: 4px;
+}
+/* Desktop 1536 */
+@media (max-width: 1536px) {
+  .sections__content_02 {
+    top: 172.53px;
+    right: 0px;
+    left: 671.66px;
+    width: 632px;
+    height: 519px;
+  }
+  .sections__btn-more_02 {
+    margin-top: 34px;
+  }
+  .sections__btn-more-span_02 {
+    padding-top: 2px;
+  }
+}
+/* Laptop 1024 */
+@media (max-width: 1024px) {
+  .sections__content_02 {
+    display: block;
+    top: 210px;
+    left: 218px;
+    align-items: flex-end;
+  }
+  .sections__chapter-holder_02 {
+    width: 445px;
+    gap: 41.2px;
+  }
+
+  .sections__title_02 {
+    margin-top: 28px;
+    width: 632px;
+    height: 180px;
+  }
+  .sections__chapter-img_02 {
+    width: 123.99px;
+    content: url(./img/line.png);
+  }
+  .sections__btn-more-img_02 {
+    content: url(./img/icons/arrow_right_h.svg);
+  }
+
+  .sections__title_02 h2 {
+    text-align: right;
+  }
+  .sections__description_02 {
+    margin-top: 20px;
+    text-align: end;
+  }
+  .sections__btn-more_02 {
+    width: 159px;
+  }
+  .sections__link-more_02 {
+    gap: 32px;
+  }
+}
+/* Tablet 768 */
+@media (max-width: 768px) {
+  .sections__content_02 {
+    top: 175.5px;
+    left: 35px;
+    width: 634px;
+    height: 381px;
+  }
+  .sections__chapter-holder_02 {
+    gap: 23.2px;
+  }
+  .sections__chapter-span_02 {
+    font-size: 16px;
+    letter-spacing: 0.38em;
+  }
+
+  .sections__chapter-img_02 {
+    width: 72px;
+    height: 2px;
+  }
+  .sections__title_02 {
+    height: 75px;
+    margin-top: 8px;
+  }
+  .sections__title_02 h2 {
+    height: 100%;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .sections__description_02 {
+    margin-top: 28px;
+    margin-bottom: -3px;
+  }
+  .sections__link-more_02 {
+    gap: 17px;
+  }
+  .sections__btn-more-span_02 {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+  .sections__btn-more-img_02 {
+    content: url(./img/icons/arrow_right.png);
+    margin-left: 0px;
+    padding-top: 4px;
+  }
+}
+
+/* Mobile 480 */
+@media (max-width: 480px) {
+  .sections__content_02 {
+    top: 86.5px;
+    left: 0;
+    right: 0;
+    width: 440px;
+    height: 405px;
+  }
+  .sections__chapter-img_02 {
+    padding-bottom: 0px;
+  }
+  .sections__title_02 {
+    width: 99%;
+    height: 90px;
+    margin-top: 25px;
+  }
+  .sections__title_02 h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 2.94rem;
+  }
+  .sections__description_02 {
+    width: 446px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0px;
+  }
+  .sections__link-more_02 {
+    gap: 14px;
+  }
+  .sections__btn-more_02 {
+    margin-top: 32px;
+  }
+  .sections__btn-more-span_02 {
+    font-size: 14px;
+    gap: 14px;
+  }
+  .sections__btn-more-img_02 {
+    padding-top: 8px;
+    padding-bottom: 0px;
+    width: 20px;
+    height: 14px;
+  }
+}

@@ -2,6 +2,10 @@
   font-family: 'Poppins';
   src: url(./fonts/Poppins-Bold.ttf);
 }
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url(./fonts/Poppins-Medium.ttf);
+}
 
 @font-face {
   font-family: 'Playfair Display';
