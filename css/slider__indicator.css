@@ -1,0 +1,33 @@
+.header__indicator {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+.header__indicator_start {
+  top: 0px;
+}
+.header__indicator_01 {
+  top: 60px;
+}
+.header__indicator_02 {
+  top: 120px;
+}
+.header__indicator_03 {
+  top: 180px;
+}
+
+@media (max-width: 320px) {
+  .header__indicator-img {
+    width: 2px;
+    height: 40px;
+  }
+  .header__indicator_01 {
+    top: 40px;
+  }
+  .header__indicator_02 {
+    top: 80px;
+  }
+  .header__indicator_03 {
+    top: 120px;
+  }
+}
