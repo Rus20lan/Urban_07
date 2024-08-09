@@ -1,7 +1,7 @@
 .sections__content_02 {
-  position: absolute;
+  position: relative;
   top: 200px;
-  right: 0px;
+  left: 263px;
   width: 632px;
   height: 519px;
 }
@@ -92,13 +92,13 @@
 .sections__btn-more-img_02 {
   padding-bottom: 4px;
 }
+
 /* Desktop 1536 */
 @media (max-width: 1536px) {
   .sections__content_02 {
     top: 172.53px;
-    right: 0px;
-    left: 671.66px;
-    width: 632px;
+    left: 183.86px;
+    max-width: 632px;
     height: 519px;
   }
   .sections__btn-more_02 {

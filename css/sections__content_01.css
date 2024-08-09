@@ -1,9 +1,9 @@
 .sections__content_01 {
-  position: absolute;
+  position: relative;
   top: 190px;
-  left: 142px;
-  width: 632px;
-  height: 465px;
+  left: 133px;
+  max-width: 632px;
+  max-height: 465px;
 }
 .sections__chapter_01 {
   display: block;
@@ -102,7 +102,8 @@
     height: 487px;
   }
   .sections__title_01 {
-    height: 192px;
+    /* max-width: 632px; */
+    height: auto;
   }
   .sections__title_01 h2 {
     margin-top: 27px;
